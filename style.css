@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: none;
+    /* border: none; */
     text-decoration: none;
     list-style: none;
 }
@@ -15,7 +15,7 @@ body {
 header {
     color: white;
     text-align: center;
-
+    padding: 30px;
 }
 
 section {
@@ -27,8 +27,31 @@ section {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.521);
 }
 
+section #txtyear {
+    padding: 3px;
+    color: darkblue;
+}
+
+section div p {
+    padding: 10px;
+}
+
+.btnVerify {
+    padding: 5px;
+    width: 70px;
+    font-size: 12pt;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    border: none;
+}
+
+section #result {
+    padding: 10px;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 30px;
 }

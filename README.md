@@ -2,7 +2,7 @@
 
 Project developed during the JavaScript Course with Gustavo Guanabara ("Curso em Vídeo"), in March/23.
 
-According to the time of day, some elements of the page change, such as: background color, message with the current time and image.
+*** CHANGE *** According to the time of day, some elements of the page change, such as: background color, message with the current time and image.
 
 🔗 [Click here to access]()
 

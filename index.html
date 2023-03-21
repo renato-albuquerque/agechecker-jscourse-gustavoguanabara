@@ -8,18 +8,29 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
     
-    <title>Exercise Model</title>
+    <title>Age Checker</title>
 </head>
 <body>
     <header>
-        <h1>Title</h1>
+        <h1>Age Checker</h1>
     </header>
     <section>
         <div>
-            TESTING...
+           <p>Year of birth:
+                <input type="number" name="txtyear" id="txtyear" min="0"> 
+           </p>
+           <p>Gender:
+                <input type="radio" name="radiogender" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="radiogender" id="female">
+                <label for="female">Female</label>
+           </p>
+           <p>
+                <input class="btnVerify" type="button" value="Verify" onclick="verify()">
+           </p>
         </div>
-        <div>
-            Hello!
+        <div id="result">
+            Fill the data above to see the result.
         </div>
     </section>
     <footer>
