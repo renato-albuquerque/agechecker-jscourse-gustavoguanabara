@@ -17,31 +17,31 @@ function verify() {
             gender = "Male"
             if(age >= 0 && age < 10) {
                 // Child
-                image.setAttribute("src", "baby-m.jpg")
+                image.setAttribute("src", "files/baby-m.jpg")
             } else if(/* age >= 10 && */ age < 21) {    /* Can be ommited. */
                 // Young
-                image.setAttribute("src", "young-m.jpg")
+                image.setAttribute("src", "files/young-m.jpg")
             } else if(/* age >= 21 && */ age < 50) {    /* Can be ommited. */
                 // Adult
-                image.setAttribute("src", "adult-m.jpg")
+                image.setAttribute("src", "files/adult-m.jpg")
             } else {
                 // Elderly
-                image.setAttribute("src", "elderly-m.jpg")
+                image.setAttribute("src", "files/elderly-m.jpg")
             }
         } else if(formGender[1].checked) {
             gender = "Female"
             if(age >= 0 && age < 10) {
                 // Child
-                image.setAttribute("src", "baby-f.jpg")
+                image.setAttribute("src", "files/baby-f.jpg")
             } else if(/* age >= 10 && */ age < 21) {    /* Can be ommited. */
                 // Young
-                image.setAttribute("src", "young-f.jpg")
+                image.setAttribute("src", "files/young-f.jpg")
             } else if(/* age >= 21 && */ age < 50) {    /* Can be ommited. */
                 // Adult
-                image.setAttribute("src", "adult-f.jpg")
+                image.setAttribute("src", "files/adult-f.jpg")
             } else {
                 // Elderly
-                image.setAttribute("src", "elderly-f.jpg")
+                image.setAttribute("src", "files/elderly-f.jpg")
             }
         }
 
@@ -49,6 +49,8 @@ function verify() {
         result.style.color = "darkblue"
         result.innerHTML = `We detected gender <strong>${gender}</strong> with <strong>${age}</strong> years old.`
         result.appendChild(image)   /* To appear the image below. */
+        image.style.borderRadius = "50%"
+        image.style.marginTop = "15px"
 
     }
 
