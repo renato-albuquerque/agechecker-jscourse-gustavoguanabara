@@ -13,7 +13,7 @@ function verify() {
         let image = document.createElement("img")   /* Alternative/way to insert image by JS. */
         image.setAttribute("id", "image")
         
-        if(formGender[0].checked) {
+        if(formGender[0].checked) { /* [0] Male */
             gender = "Male"
             if(age >= 0 && age < 10) {
                 // Child
@@ -28,7 +28,7 @@ function verify() {
                 // Elderly
                 image.setAttribute("src", "files/elderly-m.jpg")
             }
-        } else if(formGender[1].checked) {
+        } else if(formGender[1].checked) {  /* [1] Female */
             gender = "Female"
             if(age >= 0 && age < 10) {
                 // Child
@@ -53,8 +53,5 @@ function verify() {
         image.style.marginTop = "15px"
 
     }
-
-
-
 }
 
