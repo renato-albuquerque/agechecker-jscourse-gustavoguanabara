@@ -38,11 +38,11 @@ function verify() {
                 // Child
                 image.setAttribute("src", "files/baby-f.jpg")
                 image.style.width = "200px"
-            } else if(/* age >= 10 && */ age < 21) {    /* Can be ommited. */
+            } else if(/* age >= 10 && */ age < 21) {    /* Can be omitted. */
                 // Young
                 image.setAttribute("src", "files/young-f.jpg")
                 image.style.width = "200px"
-            } else if(/* age >= 21 && */ age < 50) {    /* Can be ommited. */
+            } else if(/* age >= 21 && */ age < 50) {    /* Can be omitted. */
                 // Adult
                 image.setAttribute("src", "files/adult-f.jpg")
                 image.style.width = "200px"
